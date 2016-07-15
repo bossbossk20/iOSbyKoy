@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1825EF21D38F1290003B6CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1825EF11D38F1290003B6CC /* AppDelegate.swift */; };
+		C1825EF41D38F1290003B6CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1825EF31D38F1290003B6CC /* ViewController.swift */; };
+		C1825EF71D38F1290003B6CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1825EF51D38F1290003B6CC /* Main.storyboard */; };
+		C1825EF91D38F1290003B6CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1825EF81D38F1290003B6CC /* Assets.xcassets */; };
+		C1825EFC1D38F1290003B6CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1825EFA1D38F1290003B6CC /* LaunchScreen.storyboard */; };
+		C1825F071D38F1290003B6CC /* iOSbyTeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1825F061D38F1290003B6CC /* iOSbyTeeTests.swift */; };
+		C1825F121D38F12A0003B6CC /* iOSbyTeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1825F111D38F12A0003B6CC /* iOSbyTeeUITests.swift */; };
+		C1825F201D38F6060003B6CC /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1825F1F1D38F6060003B6CC /* ViewController2.swift */; };
+		C1825F221D38FB080003B6CC /* TableForKoyChatWithYa.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1825F211D38FB080003B6CC /* TableForKoyChatWithYa.swift */; };
+		C1825F241D38FF700003B6CC /* ChatWithYaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1825F231D38FF6F0003B6CC /* ChatWithYaCell.swift */; };
+		C1825F261D39026A0003B6CC /* ChatWithKoyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1825F251D39026A0003B6CC /* ChatWithKoyCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1825F031D38F1290003B6CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1825EE61D38F1290003B6CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1825EED1D38F1290003B6CC;
+			remoteInfo = iOSbyTee;
+		};
+		C1825F0E1D38F12A0003B6CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1825EE61D38F1290003B6CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1825EED1D38F1290003B6CC;
+			remoteInfo = iOSbyTee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1825EEE1D38F1290003B6CC /* iOSbyTee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSbyTee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1825EF11D38F1290003B6CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1825EF31D38F1290003B6CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1825EF61D38F1290003B6CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1825EF81D38F1290003B6CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1825EFB1D38F1290003B6CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1825EFD1D38F1290003B6CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1825F021D38F1290003B6CC /* iOSbyTeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSbyTeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1825F061D38F1290003B6CC /* iOSbyTeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSbyTeeTests.swift; sourceTree = "<group>"; };
+		C1825F081D38F1290003B6CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1825F0D1D38F12A0003B6CC /* iOSbyTeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSbyTeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1825F111D38F12A0003B6CC /* iOSbyTeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSbyTeeUITests.swift; sourceTree = "<group>"; };
+		C1825F131D38F12A0003B6CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1825F1F1D38F6060003B6CC /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		C1825F211D38FB080003B6CC /* TableForKoyChatWithYa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableForKoyChatWithYa.swift; sourceTree = "<group>"; };
+		C1825F231D38FF6F0003B6CC /* ChatWithYaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatWithYaCell.swift; sourceTree = "<group>"; };
+		C1825F251D39026A0003B6CC /* ChatWithKoyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatWithKoyCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1825EEB1D38F1290003B6CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1825EFF1D38F1290003B6CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1825F0A1D38F12A0003B6CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1825EE51D38F1290003B6CC = {
+			isa = PBXGroup;
+			children = (
+				C1825EF01D38F1290003B6CC /* iOSbyTee */,
+				C1825F051D38F1290003B6CC /* iOSbyTeeTests */,
+				C1825F101D38F12A0003B6CC /* iOSbyTeeUITests */,
+				C1825EEF1D38F1290003B6CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1825EEF1D38F1290003B6CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1825EEE1D38F1290003B6CC /* iOSbyTee.app */,
+				C1825F021D38F1290003B6CC /* iOSbyTeeTests.xctest */,
+				C1825F0D1D38F12A0003B6CC /* iOSbyTeeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1825EF01D38F1290003B6CC /* iOSbyTee */ = {
+			isa = PBXGroup;
+			children = (
+				C1825EF11D38F1290003B6CC /* AppDelegate.swift */,
+				C1825EF31D38F1290003B6CC /* ViewController.swift */,
+				C1825EF51D38F1290003B6CC /* Main.storyboard */,
+				C1825F211D38FB080003B6CC /* TableForKoyChatWithYa.swift */,
+				C1825F1F1D38F6060003B6CC /* ViewController2.swift */,
+				C1825EF81D38F1290003B6CC /* Assets.xcassets */,
+				C1825EFA1D38F1290003B6CC /* LaunchScreen.storyboard */,
+				C1825EFD1D38F1290003B6CC /* Info.plist */,
+				C1825F231D38FF6F0003B6CC /* ChatWithYaCell.swift */,
+				C1825F251D39026A0003B6CC /* ChatWithKoyCell.swift */,
+			);
+			path = iOSbyTee;
+			sourceTree = "<group>";
+		};
+		C1825F051D38F1290003B6CC /* iOSbyTeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1825F061D38F1290003B6CC /* iOSbyTeeTests.swift */,
+				C1825F081D38F1290003B6CC /* Info.plist */,
+			);
+			path = iOSbyTeeTests;
+			sourceTree = "<group>";
+		};
+		C1825F101D38F12A0003B6CC /* iOSbyTeeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1825F111D38F12A0003B6CC /* iOSbyTeeUITests.swift */,
+				C1825F131D38F12A0003B6CC /* Info.plist */,
+			);
+			path = iOSbyTeeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1825EED1D38F1290003B6CC /* iOSbyTee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1825F161D38F12A0003B6CC /* Build configuration list for PBXNativeTarget "iOSbyTee" */;
+			buildPhases = (
+				C1825EEA1D38F1290003B6CC /* Sources */,
+				C1825EEB1D38F1290003B6CC /* Frameworks */,
+				C1825EEC1D38F1290003B6CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSbyTee;
+			productName = iOSbyTee;
+			productReference = C1825EEE1D38F1290003B6CC /* iOSbyTee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1825F011D38F1290003B6CC /* iOSbyTeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1825F191D38F12A0003B6CC /* Build configuration list for PBXNativeTarget "iOSbyTeeTests" */;
+			buildPhases = (
+				C1825EFE1D38F1290003B6CC /* Sources */,
+				C1825EFF1D38F1290003B6CC /* Frameworks */,
+				C1825F001D38F1290003B6CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1825F041D38F1290003B6CC /* PBXTargetDependency */,
+			);
+			name = iOSbyTeeTests;
+			productName = iOSbyTeeTests;
+			productReference = C1825F021D38F1290003B6CC /* iOSbyTeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1825F0C1D38F12A0003B6CC /* iOSbyTeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1825F1C1D38F12A0003B6CC /* Build configuration list for PBXNativeTarget "iOSbyTeeUITests" */;
+			buildPhases = (
+				C1825F091D38F12A0003B6CC /* Sources */,
+				C1825F0A1D38F12A0003B6CC /* Frameworks */,
+				C1825F0B1D38F12A0003B6CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1825F0F1D38F12A0003B6CC /* PBXTargetDependency */,
+			);
+			name = iOSbyTeeUITests;
+			productName = iOSbyTeeUITests;
+			productReference = C1825F0D1D38F12A0003B6CC /* iOSbyTeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1825EE61D38F1290003B6CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = thanawat;
+				TargetAttributes = {
+					C1825EED1D38F1290003B6CC = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = EY268YMMS7;
+					};
+					C1825F011D38F1290003B6CC = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = EY268YMMS7;
+						TestTargetID = C1825EED1D38F1290003B6CC;
+					};
+					C1825F0C1D38F12A0003B6CC = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = EY268YMMS7;
+						TestTargetID = C1825EED1D38F1290003B6CC;
+					};
+				};
+			};
+			buildConfigurationList = C1825EE91D38F1290003B6CC /* Build configuration list for PBXProject "iOSbyTee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1825EE51D38F1290003B6CC;
+			productRefGroup = C1825EEF1D38F1290003B6CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1825EED1D38F1290003B6CC /* iOSbyTee */,
+				C1825F011D38F1290003B6CC /* iOSbyTeeTests */,
+				C1825F0C1D38F12A0003B6CC /* iOSbyTeeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1825EEC1D38F1290003B6CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1825EFC1D38F1290003B6CC /* LaunchScreen.storyboard in Resources */,
+				C1825EF91D38F1290003B6CC /* Assets.xcassets in Resources */,
+				C1825EF71D38F1290003B6CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1825F001D38F1290003B6CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1825F0B1D38F12A0003B6CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1825EEA1D38F1290003B6CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1825EF41D38F1290003B6CC /* ViewController.swift in Sources */,
+				C1825EF21D38F1290003B6CC /* AppDelegate.swift in Sources */,
+				C1825F221D38FB080003B6CC /* TableForKoyChatWithYa.swift in Sources */,
+				C1825F201D38F6060003B6CC /* ViewController2.swift in Sources */,
+				C1825F241D38FF700003B6CC /* ChatWithYaCell.swift in Sources */,
+				C1825F261D39026A0003B6CC /* ChatWithKoyCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1825EFE1D38F1290003B6CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1825F071D38F1290003B6CC /* iOSbyTeeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1825F091D38F12A0003B6CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1825F121D38F12A0003B6CC /* iOSbyTeeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1825F041D38F1290003B6CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1825EED1D38F1290003B6CC /* iOSbyTee */;
+			targetProxy = C1825F031D38F1290003B6CC /* PBXContainerItemProxy */;
+		};
+		C1825F0F1D38F12A0003B6CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1825EED1D38F1290003B6CC /* iOSbyTee */;
+			targetProxy = C1825F0E1D38F12A0003B6CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1825EF51D38F1290003B6CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1825EF61D38F1290003B6CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1825EFA1D38F1290003B6CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1825EFB1D38F1290003B6CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1825F141D38F12A0003B6CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1825F151D38F12A0003B6CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1825F171D38F12A0003B6CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOSbyTee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.iOSbyTee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C1825F181D38F12A0003B6CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOSbyTee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.iOSbyTee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C1825F1A1D38F12A0003B6CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iOSbyTeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.iOSbyTeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSbyTee.app/iOSbyTee";
+			};
+			name = Debug;
+		};
+		C1825F1B1D38F12A0003B6CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iOSbyTeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.iOSbyTeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSbyTee.app/iOSbyTee";
+			};
+			name = Release;
+		};
+		C1825F1D1D38F12A0003B6CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iOSbyTeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.iOSbyTeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iOSbyTee;
+			};
+			name = Debug;
+		};
+		C1825F1E1D38F12A0003B6CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iOSbyTeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.iOSbyTeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iOSbyTee;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1825EE91D38F1290003B6CC /* Build configuration list for PBXProject "iOSbyTee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1825F141D38F12A0003B6CC /* Debug */,
+				C1825F151D38F12A0003B6CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1825F161D38F12A0003B6CC /* Build configuration list for PBXNativeTarget "iOSbyTee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1825F171D38F12A0003B6CC /* Debug */,
+				C1825F181D38F12A0003B6CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C1825F191D38F12A0003B6CC /* Build configuration list for PBXNativeTarget "iOSbyTeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1825F1A1D38F12A0003B6CC /* Debug */,
+				C1825F1B1D38F12A0003B6CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C1825F1C1D38F12A0003B6CC /* Build configuration list for PBXNativeTarget "iOSbyTeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1825F1D1D38F12A0003B6CC /* Debug */,
+				C1825F1E1D38F12A0003B6CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1825EE61D38F1290003B6CC /* Project object */;
+}
